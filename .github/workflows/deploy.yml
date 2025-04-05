@@ -22,6 +22,6 @@ jobs:
         id: fa
         with:
           app-name: 'cipp-swa-3ms4w' # Replace with your Azure Function App name
-          slot-name: 'Production'
+          slot-name: 'production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_8850D52E7386421893E91D4EB5510441 }}
